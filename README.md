@@ -26,14 +26,10 @@ This project is a secure, console-based password manager developed in C. It allo
 - `include/`
   - `passwords.h`
   - `encryption.h`
-  - `auth.h`
-  - `vault.dat`
 - `src/`
   - `main.c`
   - `passwords.c`
   - `encryption.c`
-  - `storage.c`
-  - `auth.c`
 - `README.md`
 
 ## 🧾 How to Use
