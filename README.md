@@ -12,48 +12,50 @@ This project is a secure, console-based password manager developed in C. It allo
 - Optional master password protection
 
 ## 🧠 Concepts Demonstrated
-- **Structures and functions**: Used to define and manipulate credential records
-- **File operations**: `fopen`, `fwrite`, `fread`, `remove`, `rename` for persistent storage
-- **Pointer-based string manipulation**: For encryption, input parsing, and dynamic handling
-- **Dynamic memory management**: Allocating memory for credential arrays and strings
+- **Structures and functions**: Used to define and manipulate credential records  
+- **File operations**: `fopen`, `fwrite`, `fread`, `remove`, `rename` for persistent storage  
+- **Pointer-based string manipulation**: For encryption, input parsing, and dynamic handling  
+- **Dynamic memory management**: Allocating memory for credential arrays and strings  
 - **Modular programming using header files**: Organized into reusable components for clarity and scalability
 
 ## 📁 Directory Structure
 
 **PasswordManager/**
-- `docs/`
+- `docs/`  
   - `ProjectReport.pdf`
-- `include/`
-  - `passwords.h`
+- `include/`  
+  - `passwords.h`  
   - `encryption.h`
-- `src/`
-  - `main.c`
-  - `passwords.c`
+- `src/`  
+  - `main.c`  
+  - `passwords.c`  
   - `encryption.c`
 - `README.md`
 
 ## 🧾 How to Use
-- Launch the program and enter the master password (if enabled)
+- Compile the program using a C compiler (e.g., GCC)
+- Run the executable from the terminal
 - Choose from the menu:
-- Add a new credential
-- View all credentials
-- Search by site or username
-- Delete a credential
+  - Add a new credential  
+  - View all credentials  
+  - Search by website or username  
+  - Delete a credential  
 - All passwords are encrypted before saving and decrypted when viewed
 
 ## 🔒 Security Notes
-- Passwords are encrypted using a basic XOR cipher for demonstration purposes
+- Passwords are encrypted using a basic XOR cipher for demonstration purposes  
 - For real-world applications, consider using stronger encryption algorithms (e.g., AES) and secure storage practices
 
-## 👥 Team Contributions
-- Surya: Core logic, encryption module, input handling, documentation
-- [Teammate Name]: File I/O, search/delete features, testing and validation
+## 👤 Author
+- **Surya**: Sole developer and contributor  
+  - Designed and implemented all modules  
+  - Encryption logic, file handling, and input validation  
+  - Documentation and project structure
 
 ## 📄 Report
-Refer to ProjectReport.pdf for a detailed academic write-up including:
-- System architecture
-- Implementation details
-- Challenges faced
-- Testing and results
+Refer to `docs/ProjectReport.pdf` for a detailed academic write-up including:  
+- System architecture  
+- Implementation details  
+- Challenges faced  
+- Testing and results  
 - Future improvements
-
