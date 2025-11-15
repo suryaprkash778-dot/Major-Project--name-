@@ -1,7 +1,10 @@
 #ifndef ENCRYPTION_H
 #define ENCRYPTION_H
 
-void xor_encrypt(char *str, char key);
+static inline void xor_encrypt(char *str, char key) {
+    for (int i = 0; str[i] != '\0'; i++) {
+        str[i] ^= key;
+    }
+}
 
-#endif
-
+#endif // ENCRYPTION_H
